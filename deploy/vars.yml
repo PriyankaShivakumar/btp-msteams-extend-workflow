@@ -1,0 +1,14 @@
+SCENARIO: onpremise
+BTP_LANDSCAPE: eu10
+BTP_ACCOUNT_NAME: ecosystemmission-prs
+XSUAA_CS_URL_SUFFIX: aws-live-eu10
+BTP_SCOPES: api://sap-dev-teams.cfapps.eu10-004.hana.ondemand.com/botid-7365328e-e332-47b5-9aae-3ed5d330ea91/access_as_user
+CONNECTION_NAME_GRAPH: GraphConnection
+CONNECTION_NAME_BTP: BTPConnection
+MICROSOFT_BLOB_CONTAINER_NAME: botstorage
+MICROSOFT_BLOB_CONNECTION_STRING: DefaultEndpointsProtocol=https;AccountName=businessbotsi537413;AccountKey=7+l9LR/XUk0NJz5Uux0nHQHzwt4AucPAUfWs+UL4WEfxQisSq9Q3OmFQwII637QF7A1yLORSE3rs+ASt5y0lQQ==;EndpointSuffix=core.windows.net
+DOMAIN: sap-dev-teams.cfapps.eu10-004.hana.ondemand.com
+MICROSOFT_APP_ID: 7365328e-e332-47b5-9aae-3ed5d330ea91
+MICROSOFT_APP_PASSWORD: Q-g8Q~RJ6LMeyYjnv3lXjnI1d76TI-6YtuarSc6W
+MICROSOFT_AD_TENANT_ID: 6aacc18d-6982-443b-8cbe-4e2789f2e2fd
+SAP_CLIENT: 100

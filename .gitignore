@@ -23,9 +23,6 @@ package-lock.json
 *.zip
 appsettings.json
 
-deploy/vars.yml
-deploy/manifest.yml
-deploy/msteamsfiles/manifest.json
 deploy/msteamsfiles/deploy.zip
 deploy/msteamsfiles/manifest.json
 !deploy/cloudintegration/*.zip
